@@ -3,12 +3,12 @@ import random
 def create_board(height, width):
     board = []
 
-    for row in range(height):
+    for item in range(height):
         item_row = []
 
         for item in range(width):
             item_row.append(0)
-        board.append(row)
+        board.append(item_row)
     return board
 
 
